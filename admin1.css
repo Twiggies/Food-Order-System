@@ -1,0 +1,59 @@
+#adminContainer {
+    position: relative;
+}
+
+#sidebar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#addR {
+    border: none;
+    width: 13em;
+    height: 3em;
+    text-align: center;
+    padding: 0.5em;
+    background-color: #f3da6b;
+}
+
+#main {
+    position: relative;
+    margin-left: 13em;
+    padding-left: 0.5em;
+    min-height: 75%;
+    background-color: #f5bc51;
+}
+
+table#menus{
+    width: 80%;
+}
+
+table .id {
+    width: 2em;
+}
+
+table .name {
+    width: 15em;
+}
+
+table .details {
+    width: 15em;
+}
+
+table .price {
+    width: 6em;
+}
+
+table img {
+    margin: auto;
+    width: 150;
+}
+
+img.shopLogo {
+    width: 200;
+}
+
+td {
+    text-align: center;
+}

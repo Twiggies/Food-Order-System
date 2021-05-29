@@ -1,0 +1,80 @@
+#menuContainer {
+    position: relative;
+    height: 70%;
+}
+
+#menuMain {
+    position: relative;
+    margin: 1em 15em 1em 15em;
+    background-color: #f5bc51;
+    padding: 0.5em;
+    min-height: 95%;
+    text-align: center;
+}
+
+#payButton {
+    position: absolute;
+    width: 7.3em;
+    bottom: 7em;
+    right: 1em;
+    padding: 0.3em;
+}
+
+table, th, td {
+    border: 1px solid black;
+    margin: auto;
+}
+
+table {
+    width: 40em;
+}
+
+#menuLeftBar {
+    background-color: white;
+    border-style: solid;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 13em;
+    padding: 0.3em;
+}
+
+#menuLeftName {
+    background-color: #dddddd;
+    position: absolute;
+    text-align: center;
+    top: 50px;
+    left: 0px;
+    width: 13em;
+    padding: 0.3em;
+}
+
+#menuLeftLogo {
+    background-color: #dddddd;
+    position: absolute;
+    text-align: center;
+    top: 75px;
+    left: 0px;
+    width: 13em;
+    padding: 0.3em;
+}
+
+#menuLeftPrice {
+    background-color: #f3da6b;
+    position: absolute;
+    text-align: center;
+    top: 250px;
+    left: 0px;
+    width: 13em;
+    padding: 0.3em;
+}
+
+#menuRightBar {
+    background-color: white;
+    border-style: solid;
+    position: absolute;
+    width: 13em;
+    top: 0px;
+    right: 0px;
+    padding: 0.3em;
+}

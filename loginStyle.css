@@ -1,0 +1,37 @@
+#loginContainer {
+    width: 500px;
+    margin: 1em auto;
+    text-align: center;
+    background-color: #f5bc51;
+}
+
+form {
+    margin-right: 30%;
+    text-align: right;
+}
+
+.loginButton {
+    background-color: #caf777;
+    border: 1px solid black;
+    width: 6em;
+    text-align: center;
+    padding: 0.5em 1em;
+    margin: 0.3em;
+}
+
+.regButton {
+    background-color: #d5b0f8;
+    margin-left: 2em;
+    margin-bottom: 1em;
+    border: 1px solid black;
+    width: max-content;
+    text-align: center;
+    padding: 0.5em 1em;
+}
+
+#registerContainer {
+    width: 500px;
+    margin: 1em auto;
+    text-align: center;
+    background-color: #f5bc51;
+}

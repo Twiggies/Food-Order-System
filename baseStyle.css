@@ -1,0 +1,109 @@
+html {
+    background-color: #f7b99c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+div#logoRow {
+    background-color: rgb(250, 137, 137);
+}
+
+.searchBar {
+    display: inline;
+    padding-left: 15em; 
+    display: inline-block;
+}
+
+div#logoRow .dropdown {
+    position: absolute;
+    display: inline-block;
+    top: 1.5em;
+    right: 17em;
+       
+}
+
+.dropButton{
+    background-color: rgb(253, 243, 103);
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.dropContent {
+    display: none;
+    position: absolute;
+    background-color: #7fccff;
+    min-width: max-content;
+    z-index: 10;
+    
+}
+
+.dropContent a {
+    color: black;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    
+}
+
+.dropContent a:hover{background-color: #ddd;}
+
+/* Shows dropdown menu*/
+.show {display: block;}
+
+
+.cartImg {
+    float: right;
+}
+
+div#navigation {
+    margin-top: 1em;
+    padding: 10px 30px 50px 30px;
+    background-color: moccasin;
+    text-align: center;
+}
+
+div#navigation .dropdown {
+    float: left;
+    
+}
+
+.navbarMenu {
+    padding-right: 15em;
+}
+
+.navSelect {
+    border: 1px solid black;
+}
+
+.navbarMenu a{
+    background-color: #ddd;
+    float: right;
+    padding: 0.5em 2em 0.5em 2em;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer {
+    color: #737373;
+    background-color: moccasin;
+}
+
+#footerWrap {
+    display: flex;
+    padding-bottom: 1em;
+}
+
+#copyright {
+    margin-left: 2em;
+    margin-right: 15em;
+}
+
+h4 {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+}

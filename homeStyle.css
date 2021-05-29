@@ -1,0 +1,33 @@
+#container {
+    min-height: 80%;
+    background-color: #f5bc51;
+    margin-top: 1em;
+    padding-left: 0.5em;
+}
+
+#featured {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5em;
+}
+
+#box {
+    background-color: #fae795;
+    position: relative;
+    border-style: solid;
+    width: 13em;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+#viewButton{
+    position: absolute;
+    bottom: 3px;
+    right: 3px;
+}
+
+#featured img {
+    margin: auto;
+    width: 150;
+}

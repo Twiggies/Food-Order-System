@@ -1,0 +1,11 @@
+#contactContainer {
+    position: relative;
+    height: 70%;
+}
+
+#contactMain{
+    position: relative;
+    top: 15px;
+    background-color: #f5bc51;
+    padding: 0.5em;
+}

@@ -1,0 +1,109 @@
+#cartContainer {
+    position: relative;
+    min-height: 60%;
+}
+
+#cartMain {
+    position: relative;
+    margin: 1em 15em 1em 15em;
+    background-color: #f5bc51;
+    padding: 0.5em;
+    min-height: 60%;
+}
+
+#payContainer {
+    position: relative;
+    height: 70%;
+}
+#payLeftBar {
+    background-color: #f3da6b;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 13em;
+    padding: 0.3em;
+}
+div#payAddress {
+    font-size: 130%;
+    margin: auto;
+    padding-top: 0.5em;
+}
+
+#payMain {
+    position: relative;
+    background-color: #f5bc51;
+    margin: 1em 15em 1em 15em;
+    padding: 0.5em;
+    height: 95%;
+}
+
+#priceContainer {
+    background-color: WHITE;
+    position: absolute;
+    width: 13em;
+    bottom: 10em;
+    right: 3em;
+    padding: 0.3em;
+    
+}
+
+#priceContainer #grandTotal {
+    text-align: center;
+}
+
+div#priceOutput {
+    text-align: center;
+}
+
+#payButton {
+    position: absolute;
+    width: 7.3em;
+    bottom: 7em;
+    right: 1em;
+    padding: 0.3em;
+}
+
+#overlay {
+    position: relative;
+    background-color: #ffffffa6;
+    padding: 25% 0;
+    text-align: center;
+    width: 100%;
+    min-height: 60;
+}
+
+table, th, td {
+    border: 1px solid black;
+    margin: auto;
+}
+
+table {
+    width: 40em;
+}
+
+#cartLeftBar {
+    background-color: #f3da6b;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 13em;
+    padding: 0.3em;
+}
+
+#cartRightBar {
+    background-color: rgb(199, 0, 0);
+    position: absolute;
+    width: 13em;
+    bottom: 0px;
+    right: 0px;
+    padding: 0.3em;
+}
+
+.checkoutBtn {
+    border: none;
+    margin-left: 4em;
+    width: 7em;
+    text-align: center;
+    padding: 0.5em;
+    background-color: wheat;
+}

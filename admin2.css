@@ -1,0 +1,36 @@
+div#container {
+    width: 500px;
+    margin: 1em auto;
+    text-align: center;
+    background-color: #f5bc51;
+}
+
+.head{
+    padding-top: 1em;
+}
+
+.addForm {
+    display: inline-block;
+    text-align: center;
+    padding: 0.5em 1em;
+}
+
+.addBtn {
+    background-color: #caf777;
+    border: 1px solid black;
+    width: 10em;
+    text-align: center;
+    padding: 0.5em 1em;
+}
+
+.addForm p {
+    display: table-row;
+}
+
+.addForm label {
+    display: table-cell;
+}
+
+.addForm input {
+    display: table-cell;
+}

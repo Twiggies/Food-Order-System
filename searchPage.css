@@ -1,0 +1,27 @@
+#searchContainer {
+    position: relative;
+    min-height: 70%;
+}
+
+#searchMain{
+    position: relative;
+    display: flex;
+    top: 15px;
+    background-color: #f5bc51;
+    padding: 0.5em;
+    flex-wrap: wrap;
+}
+
+#menuContainer{
+    position: relative;
+    background: lightblue;
+    padding: 5px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#viewButton{
+    position: absolute;
+    bottom: 3px;
+    right: 3px;
+}
